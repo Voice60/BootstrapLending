@@ -1,0 +1,36 @@
+.home {
+  background-image: url('../../images/Home.png');
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  background-attachment: fixed;
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 830px;
+    padding: 200px 15px 50px 15px;
+    margin: 0 auto;
+
+    .title {
+      font-size: 3.5rem;
+    }
+
+    .buttons {
+      display: flex;
+
+      button {
+        width: 222px;
+
+        @media (max-width: 560px) {
+          width: 145px;
+        }
+      }
+    }
+
+    .arrow {
+      margin-top: 100px;
+    }
+  }
+}

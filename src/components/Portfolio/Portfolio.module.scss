@@ -1,0 +1,36 @@
+.itemsGroup {
+  justify-content: space-evenly;
+  display: flex;
+  flex-wrap: wrap;
+
+  .item {
+    margin: 0 15px 30px 15px;
+    background-color: black;
+    width: 370px;
+    height: 370px;
+    position: relative;
+
+    &:hover {
+      .itemName {
+        opacity: 1;
+      }
+
+      .photo {
+        opacity: 0.3;
+      }
+    }
+
+    .itemName {
+      opacity: 0;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      transition-duration: .3s;
+    }
+
+    .photo {
+      transition-duration: .3s;
+    }
+  }
+}
