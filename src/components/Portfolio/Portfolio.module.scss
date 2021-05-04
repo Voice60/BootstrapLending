@@ -6,8 +6,8 @@
   .item {
     margin: 0 15px 30px 15px;
     background-color: black;
-    width: 370px;
-    height: 370px;
+    // width: 370px;
+    // height: 370px;
     position: relative;
 
     &:hover {
@@ -17,8 +17,11 @@
 
       .photo {
         opacity: 0.3;
+
       }
     }
+
+    
 
     .itemName {
       opacity: 0;
@@ -31,6 +34,10 @@
 
     .photo {
       transition-duration: .3s;
+
+      @media (max-width: 370px) {
+        width: 90vw;
+      }
     }
   }
 }

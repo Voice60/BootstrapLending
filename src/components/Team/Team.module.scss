@@ -1,0 +1,61 @@
+.memberGroup {
+  @media (max-width: 950px) {
+    flex-direction: column;
+  }
+
+
+  .member {
+
+
+    .photo {
+      border-radius: 5px;
+      
+
+      @media (max-width: 1400px) {
+        width: 290px;
+      }
+
+      @media (max-width: 950px) {
+        width: 370px;
+      }
+
+      @media (max-width: 400px) {
+        width: 88vw;
+      }
+    }
+
+    .contactsGroup {
+      max-width: 270px;
+      width: 100%;
+      margin: 0 auto;
+      .contact {
+        position: relative;
+        width: 40px;
+        height: 40px;
+        background-color: #f0f1f1;
+        transition-duration: .3s;
+        border-radius: 4px;
+
+        &:hover {
+          background-color: #3949ab;
+
+          .contactIcon {
+            color: white;
+          }
+        }
+
+        .contactIcon {
+          transition-duration: .3s;
+          color: #3949ab;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          transition-duration: .3s;
+
+        }
+      }
+    }
+  }
+
+}

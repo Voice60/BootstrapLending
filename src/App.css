@@ -1,6 +1,7 @@
 .paddingTB130px {
   padding-top: 130px;
   padding-bottom: 130px;
+
 }
 
 .fontSize3r {
@@ -9,4 +10,16 @@
 
 .paddingB130px {
   padding-bottom: 130px;
+}
+
+@media (max-width: 950px) {
+  .paddingTB130px {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  
+  }
+
+  .paddingB130px {
+    padding-bottom: 60px;
+  }
 }
