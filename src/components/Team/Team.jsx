@@ -6,7 +6,7 @@ import member3 from '../../images/Member3.png'
 
 const Team = () => {
   return (
-    <section>
+    <section id="team">
       <div className='container-xl paddingTB130px text-center'>
         <h1 className='fw-bold mb-5 text-center fontSize3r'>Our Team Member</h1>
         <p className='text-center paddingB130px'>Lorem ipsum dolor sit amet, consectetur adipisicing elit,

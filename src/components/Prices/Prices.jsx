@@ -3,7 +3,7 @@ import styles from './Prices.module.scss'
 
 const Prices = () => {
   return (
-    <section className={` ${styles.prices}`}>
+    <section id='prices' className={` ${styles.prices}`}>
       <div className='container-xl paddingTB130px text-center'>
         <h1 className='fw-bold mb-5 text-center fontSize3r'>Pricing Plan</h1>
         <p className='text-center paddingB130px'>Lorem ipsum dolor sit amet, consectetur adipisicing elit,

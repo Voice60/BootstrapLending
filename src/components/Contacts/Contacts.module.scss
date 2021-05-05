@@ -1,0 +1,59 @@
+.contacts {
+  background-image: url('../../images/Contact.png');
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  background-attachment: fixed;
+
+  .contactsGroup {
+
+    @media (max-width: 600px) {
+      font-size: 0.875rem;
+    }
+    @media (max-width: 500px) {
+      flex-direction: column;
+    }
+  }
+
+  .formsGroup {
+    margin: 0 auto;
+    width: 80%;    
+    
+    text-align: right;
+    .inputsGroup {
+      @media (max-width: 400px) {
+        flex-direction: column;
+        margin-bottom: 0!important;
+      }
+      .input {
+        width: 45%;
+        // margin-bottom: ;
+
+        @media (max-width: 400px) {
+          width: 100%;
+          padding-top: 2px;
+          padding-bottom: 2px;
+          min-height: 30px;
+
+          &::placeholder {
+            font-size: 1.125rem;
+          }
+        }
+      }
+    }
+
+    .textArea {
+      @media (max-width: 400px) {
+
+        &::placeholder {
+          font-size: 1.125rem;
+        }
+      }
+    }
+
+    .submitButton {
+      text-align: right;
+    }
+
+  }
+}

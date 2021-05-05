@@ -2,6 +2,21 @@
   text-align: center;
 
   .item {
-    max-width: 280px
+    max-width: 280px;
+
+    @media (max-width: 400px) {
+      .icon {
+        width: 48px;
+        height: 48px;
+      }
+
+      h4 {
+        font-size: 1rem;
+      }
+
+      p {
+        display: none;
+      }
+    }
   }
 }

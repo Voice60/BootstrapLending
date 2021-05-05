@@ -3,7 +3,7 @@ import styles from './Services.module.scss'
 
 const Services = () => {
   return (
-    <section className={`paddingTB130px ${styles.services}`}>
+    <section id='services' className={`paddingTB130px ${styles.services}`}>
       <div className='container-xl d-flex flex-column align-items-center'>
         <h1 className='fw-bold mb-5 text-center fontSize3r'>Our services</h1>
         <p className='text-center paddingB130px'>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
