@@ -1,4 +1,6 @@
 import About from './components/About/About';
+import Contacts from './components/Contacts/Contacts';
+import Footer from './components/Footer/Footer';
 import Home from './components/Home/Home';
 import Nav from './components/Nav/Nav';
 import Portfolio from './components/Portfolio/Portfolio';
@@ -8,8 +10,7 @@ import Team from './components/Team/Team';
 
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css'
-import Footer from './components/Footer/Footer';
-import Contacts from './components/Contacts/Contacts';
+import 'bootstrap/dist/js/bootstrap.bundle.js'
 
 function App() {
   return (
