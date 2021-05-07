@@ -4,7 +4,7 @@ import styles from './About.module.scss'
 const About = () => {
   return (
     <section id='about' className='container-xl paddingTB130px text-center'>
-      <h1 className='mb-5 fw-bold fontSize3r'>About Us</h1>
+      <h1 className='mb-5 fontSize3r title'>About Us</h1>
       <p className='paddingB130px'>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
       sed do eiusmod tempor incididunt <br /> ut labore et dolore magna aliqua.
       Ut enim ad minim veniam,</p>

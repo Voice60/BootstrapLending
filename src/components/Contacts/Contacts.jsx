@@ -6,7 +6,7 @@ const Contacts = () => {
   return (
     <section id='contacts' className={`paddingTB130px text-center ${styles.contacts}`}>
       <div className='container-xl text-center text-light'>
-        <h1 className='fw-bold mb-5 text-center fontSize3r'>Contacts</h1>
+        <h1 className='mb-5 text-center title'>Contacts</h1>
         <p className='text-center paddingB130px text-secondary'>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
       sed do eiusmod tempor incididunt <br /> ut labore et dolore magna aliqua.
       Ut enim ad minim veniam,</p>

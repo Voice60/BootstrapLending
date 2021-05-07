@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <section className={`text-center ${styles.home}`}>
       <div className={`d-flex flex-column align-items-center mx-auto ${styles.container}`}>
-        <h1 className={`text-light ${styles.title}`}>Web development project</h1>
+        <h1 className={`text-light title ${styles.title}`}>Web development project</h1>
         <h5 className='text-light'>Very suitable to support all web development projects</h5>
         <div className='mt-5 mb-5 d-flex gap-3'>
           <button type="button" className={`btn btn-primary btn-lg ${styles.button}`}>Our Services</button>

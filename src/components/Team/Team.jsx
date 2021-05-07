@@ -7,7 +7,7 @@ import member3 from '../../images/Member3.png'
 const Team = () => {
   return (
     <section className='container-xl paddingTB130px text-center' id="team">
-      <h1 className='fw-bold mb-5 text-center fontSize3r'>Our Team Member</h1>
+      <h1 className='mb-5 text-center title'>Our Team Member</h1>
       <p className='text-center paddingB130px'>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
       sed do eiusmod tempor incididunt <br /> ut labore et dolore magna aliqua.
       Ut enim ad minim veniam,</p>

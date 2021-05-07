@@ -1,59 +1,54 @@
 .services {
-  background-color: #e4fdf9;
+  background-color: #e9ecef;
 
   .itemsGroup {
     max-width: 1100px;
 
-    .item {
-      width: 18rem;
+    .card {
+      $cardHeight: 480px;
+
+      width: 300px;
+      height: $cardHeight;
+      background-color: white;
+      border-top-left-radius: 20px;
+      border-top-right-radius: 20px;
+      border-bottom-right-radius: 15px;
+      border-bottom-left-radius: 15px;
+      box-shadow: 2px 2px 8px 6px rgba(black, .15);
       margin: 0 15px 30px 15px;
-      transition-duration: .3s;
 
-      @media (max-width: 300px) {
-        margin-right: 0;
-        margin-left: 0;
-      }
+      $cardTopHeight: 180px;
 
-      h5 {
-        transition-duration: .3s;
-      }
-
-      p {
-        transition-duration: .3s;
-      }
-
-      &:hover {
-        box-shadow: 2px 2px 13px 10px rgba(black, .15) !important;
-        background-color: #00897b;
-
-        h5 {
-          color: white;
-        }
-
-        p {
-          color: white;
-        }
-
-
-
-        button {
-          color: white;
-          border-color: white;
-
-          &:hover {
-            background-color: white;
-            color: black;
-          }
-        }
+      .cardTop {
+        background-color: #212529;
+        height: $cardTopHeight;
+        border-radius: 15px;
 
         .icon {
           color: white;
         }
       }
 
-      .icon {
-        margin: 30px auto;
-        transition-duration: .3s;
+      .cardBottom {
+        height: $cardHeight - $cardTopHeight;
+        padding: 16px;
+
+        .cardTitle {
+          font-size: 1.75rem;
+
+        }
+
+        .cardText {
+          color: #595959;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          margin-bottom: 43px;
+        }
+
+        .button {
+          bottom: 15px;
+          left: 15px;
+        }
       }
     }
   }
