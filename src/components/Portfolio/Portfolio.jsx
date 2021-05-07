@@ -9,39 +9,36 @@ import photo6 from '../../images/Photo6.png'
 
 const Portfolio = () => {
   return (
-    <section id='portfolio' className={`container-xl paddingTB130px`}>
+    <section id='portfolio' className='container-xl paddingTB130px'>
       <h1 className='fw-bold mb-5 text-center fontSize3r'>Latest Works</h1>
-      <p className={`text-center paddingB130px`}>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+      <p className='text-center paddingB130px'>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
       sed do eiusmod tempor incididunt <br /> ut labore et dolore magna aliqua.
       Ut enim ad minim veniam,</p>
-      {/* <div className={styles.buttonGroup}>
-
-      </div> */}
-      <div className={styles.itemsGroup}>
-      <div className={styles.item}>
-        <p className={`text-light ${styles.itemName}`}>Hand Watch</p>
-        <img src={photo1} className={styles.photo} alt="Hand Watch"/>
-      </div>
-      <div className={styles.item}>
-        <p className={`text-light ${styles.itemName}`}>Package</p>
-        <img src={photo2} className={styles.photo} alt="Package"/>
-      </div>
-      <div className={styles.item}>
-        <p className={`text-light ${styles.itemName}`}>Pack</p>
-        <img src={photo3} className={styles.photo} alt="Pack"/>
-      </div>
-      <div className={styles.item}>
-        <p className={`text-light ${styles.itemName}`}>Flask</p>
-        <img src={photo4} className={styles.photo} alt="Flack"/>
-      </div>
-      <div className={styles.item}>
-        <p className={`text-light ${styles.itemName}`}>Wine</p>
-        <img src={photo5} className={styles.photo} alt="Wine"/>
-      </div>
-      <div className={styles.item}>
-        <p className={`text-light ${styles.itemName}`}>Handbag</p>
-        <img src={photo6} className={styles.photo} alt="Handbag"/>
-      </div>
+      <div className='d-flex justify-content-evenly flex-wrap'>
+        <div className={`position-relative ${styles.item}`}>
+          <p className={`text-light position-absolute top-50 start-50 translate-middle ${styles.itemName}`}>Hand Watch</p>
+          <img src={photo1} className={styles.photo} alt="Hand Watch" />
+        </div>
+        <div className={`position-relative ${styles.item}`}>
+          <p className={`text-light position-absolute top-50 start-50 translate-middle ${styles.itemName}`}>Package</p>
+          <img src={photo2} className={styles.photo} alt="Package" />
+        </div>
+        <div className={`position-relative ${styles.item}`}>
+          <p className={`text-light position-absolute top-50 start-50 translate-middle ${styles.itemName}`}>Pack</p>
+          <img src={photo3} className={styles.photo} alt="Pack" />
+        </div>
+        <div className={`position-relative ${styles.item}`}>
+          <p className={`text-light position-absolute top-50 start-50 translate-middle ${styles.itemName}`}>Flask</p>
+          <img src={photo4} className={styles.photo} alt="Flack" />
+        </div>
+        <div className={`position-relative ${styles.item}`}>
+          <p className={`text-light position-absolute top-50 start-50 translate-middle ${styles.itemName}`}>Wine</p>
+          <img src={photo5} className={styles.photo} alt="Wine" />
+        </div>
+        <div className={`position-relative ${styles.item}`}>
+          <p className={`text-light position-absolute top-50 start-50 translate-middle ${styles.itemName}`}>Handbag</p>
+          <img src={photo6} className={styles.photo} alt="Handbag" />
+        </div>
       </div>
     </section>
   )

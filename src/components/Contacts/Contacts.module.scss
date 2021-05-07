@@ -2,11 +2,9 @@
   background-image: url('../../images/Contact.png');
   background-size: cover;
   background-position: center;
-  text-align: center;
   background-attachment: fixed;
 
   .contactsGroup {
-
     @media (max-width: 600px) {
       font-size: 0.875rem;
     }
@@ -16,18 +14,16 @@
   }
 
   .formsGroup {
-    margin: 0 auto;
-    width: 80%;    
-    
-    text-align: right;
+    width: 80%;
+
     .inputsGroup {
       @media (max-width: 400px) {
         flex-direction: column;
         margin-bottom: 0!important;
       }
+
       .input {
         width: 45%;
-        // margin-bottom: ;
 
         @media (max-width: 400px) {
           width: 100%;
@@ -50,10 +46,5 @@
         }
       }
     }
-
-    .submitButton {
-      text-align: right;
-    }
-
   }
 }
