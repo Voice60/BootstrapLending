@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/BootstrapLending/static/css/main.1446ef22.chunk.css",
+    "main.js": "/BootstrapLending/static/js/main.23135ea1.chunk.js",
+    "main.js.map": "/BootstrapLending/static/js/main.23135ea1.chunk.js.map",
+    "runtime-main.js": "/BootstrapLending/static/js/runtime-main.641290e6.js",
+    "runtime-main.js.map": "/BootstrapLending/static/js/runtime-main.641290e6.js.map",
+    "static/css/2.65af8127.chunk.css": "/BootstrapLending/static/css/2.65af8127.chunk.css",
+    "static/js/2.f6dd309e.chunk.js": "/BootstrapLending/static/js/2.f6dd309e.chunk.js",
+    "static/js/2.f6dd309e.chunk.js.map": "/BootstrapLending/static/js/2.f6dd309e.chunk.js.map",
+    "static/js/3.0d8af109.chunk.js": "/BootstrapLending/static/js/3.0d8af109.chunk.js",
+    "static/js/3.0d8af109.chunk.js.map": "/BootstrapLending/static/js/3.0d8af109.chunk.js.map",
+    "index.html": "/BootstrapLending/index.html",
+    "static/css/2.65af8127.chunk.css.map": "/BootstrapLending/static/css/2.65af8127.chunk.css.map",
+    "static/css/main.1446ef22.chunk.css.map": "/BootstrapLending/static/css/main.1446ef22.chunk.css.map",
+    "static/js/2.f6dd309e.chunk.js.LICENSE.txt": "/BootstrapLending/static/js/2.f6dd309e.chunk.js.LICENSE.txt",
+    "static/media/Contacts.module.scss": "/BootstrapLending/static/media/Contact.0d34dcc0.png",
+    "static/media/Home.module.scss": "/BootstrapLending/static/media/Home.bb7f173c.png",
+    "static/media/Member1.b04bde50.png": "/BootstrapLending/static/media/Member1.b04bde50.png",
+    "static/media/Member2.91810ddf.png": "/BootstrapLending/static/media/Member2.91810ddf.png",
+    "static/media/Member3.831889dc.png": "/BootstrapLending/static/media/Member3.831889dc.png",
+    "static/media/Photo1.98000453.png": "/BootstrapLending/static/media/Photo1.98000453.png",
+    "static/media/Photo2.9ac40b5e.png": "/BootstrapLending/static/media/Photo2.9ac40b5e.png",
+    "static/media/Photo3.62d3ca0b.png": "/BootstrapLending/static/media/Photo3.62d3ca0b.png",
+    "static/media/Photo4.8978fe23.png": "/BootstrapLending/static/media/Photo4.8978fe23.png",
+    "static/media/Photo5.08d3845e.png": "/BootstrapLending/static/media/Photo5.08d3845e.png",
+    "static/media/Photo6.ca7a9c81.png": "/BootstrapLending/static/media/Photo6.ca7a9c81.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.641290e6.js",
+    "static/css/2.65af8127.chunk.css",
+    "static/js/2.f6dd309e.chunk.js",
+    "static/css/main.1446ef22.chunk.css",
+    "static/js/main.23135ea1.chunk.js"
+  ]
+}
