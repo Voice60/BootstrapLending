@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react'
+
 import styles from './Services.module.scss'
 
 const CardFlex = () => {
@@ -215,13 +216,10 @@ const Services = () => {
     const handleResize = () => {
       setWindowWidth(window.innerWidth)
     }
+    handleResize()
     window.addEventListener('resize', handleResize)
     return () => window.removeEventListener('resize', handleResize)
-  })
-
-  console.log(windowWidth)
-
-
+  }, [])
 
   return (
     <section id='services' className={`paddingTB130px ${styles.services}`}>
